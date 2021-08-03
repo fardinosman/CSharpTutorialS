@@ -53,12 +53,44 @@ namespace Lesson1
             int myInt = (int)myDouble;
             Console.WriteLine(myInt);
 
-            Console.WriteLine("-------------char---------exsample char hold single character----------");
+            Console.WriteLine("------\n-------char---------exsample char hold single character----------");
 
             char myChar = 'H';
             Console.WriteLine(myChar);
             char mySecondChar = '8';
             Console.WriteLine(mySecondChar);
+            char myCh = '\n';
+            Console.WriteLine(myCh);
+
+            Console.WriteLine("Hello \nWorld");
+            Console.WriteLine("Hello \tWorld");
+            Console.WriteLine("Hello \n\tWorld");
+            Console.WriteLine("Hello \n\tWorld");
+            Console.WriteLine("\"Hello \n\tWorld\"");
+            Console.WriteLine("\'Hello \n\tWorld\'");
+            Console.WriteLine("\\Hello \n\tWorld\\");
+
+            Console.WriteLine("-------------string exsample-----------------");
+
+            string myName = "Frank";
+            Console.WriteLine( myName.Length );
+
+            int length = myName.Length;
+            Console.WriteLine(length);
+            Console.WriteLine("----read from console exsample---------");
+            Console.WriteLine("please enter your first name");
+            string value = Console.ReadLine();
+            Console.WriteLine("Hello {0} how are you? sir", value);
+            Console.WriteLine("please enter a number");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine("please another  number");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            int newNum = number + number1;
+            Console.WriteLine("{0}  = {1}",number,number1);
+
+           
+
+
             Console.ReadLine();
         }
     }
