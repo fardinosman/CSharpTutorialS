@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39103D3E-0828-4C8F-BED2-F588DA25ACC5}</ProjectGuid>
+    <ProjectGuid>{F8ACB7C7-B0AF-4BF7-B5D6-44FAE0C99A59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson5Methods</RootNamespace>
-    <AssemblyName>Lesson5Methods</AssemblyName>
+    <RootNamespace>Lesson6MethodConcepts</RootNamespace>
+    <AssemblyName>Lesson6MethodConcepts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
